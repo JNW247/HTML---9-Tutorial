@@ -1,0 +1,28 @@
+/* Style for the Restaurants Homework Table */
+
+th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th{
+    background-color: #778899;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even){
+    background-color: #d3d3d3
+}
+
+tr:hover{
+    background-color: gray;
+    color: white;
+}
+
+div.homework{
+    overflow-x: auto;
+}
+
+td

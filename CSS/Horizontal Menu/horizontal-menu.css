@@ -19,24 +19,4 @@ div.horizontal-menu{
    color: black;
 }
 
-/* Beginning of the footer vertical navigation bar */
-ul.footer-links{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 250px;
-    background-color: white;
-    border: 1px solid black;
-}
 
-li.footer-links a.footer-links{
-    display: block;
-    color:black;
-    padding: 10px 20px;
-    text-decoration: none;
-    border: 1px solid black;
-}
-
-li.footer-links a.footer-links:hover{
-    background-color: #d3d3d3;
-}

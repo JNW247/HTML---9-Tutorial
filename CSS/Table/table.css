@@ -1,0 +1,48 @@
+/* Style for the home page table */
+table, th, td{
+border: 1px solid black;
+border-collapse: collapse;
+padding: 10px;
+}
+
+th{
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even){
+    background-color: rgba(150,212, 212, 0.4);
+}
+
+tr:hover{
+    background-color: gray;
+    color: white;
+}
+
+div.table{
+    overflow-x: auto;
+}
+
+/* Beginning of the 3 columns layout with images*/
+
+div.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 31%;
+
+}
+
+/*
+table{
+    border-spacing: 10px;
+    background-color: rgb(206,206,206);
+}
+th, td{
+background-color: white;
+}
+
+th{
+    text-align: center;
+} */

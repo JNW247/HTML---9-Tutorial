@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -8,9 +8,37 @@
         <!-- This is a link to an external CSS File-->
          <link rel="stylesheet" type="text/css" href="css/style.css">
          <link rel="stylesheet" type="text/css" href="css/horizontal-menu/horizontal-menu.css">
+         <link rel="stylesheet" type="text/css" href="css/table/table.css">
+         <link rel="stylesheet" type="text/css" href="css/table/homework.css">
+
+
+        <!-- This is a link to place a favicon in the tab of the browser-->
+         <link rel="icon" type="image/x-icon" href="images/wordpress-favicon.png">
+
         <style>
            /* This is an internal CSS File */
         
+           /* Beginning of the footer vertical navigation bar */
+ul.footer-links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+li.footer-links a.footer-links{
+    display: block;
+    color:black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+li.footer-links a.footer-links:hover{
+    background-color: #d3d3d3;
+}
         </style>
     </head>
     <body>
@@ -59,6 +87,221 @@
             <img title="Holiday Beach Vacation in Miami Beach" alt="Beautiful beach vacation" src="images/holiday-beach-vacation.png" width="100%" height="" />
 
             <img title="Purple Lights Poolside in Miami Beach" alt="Beautiful Poolside" src="images/purple-poolside.jpg" width="100%" height="" />
+
+            <h2>Working with Tables and Style</h2>
+
+            <p>A table in HTML consists of table cells inside rows and columns. We are going to use td tag= table data, th= table header,and tr= table rows</p>
+
+        <div class="table">
+            <table width="100%">
+                <tr>
+                    <th>Customer's name</th>
+                    <th>Phone number</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                </tr>
+
+                <tr>
+                    <td>Art Williams</td>
+                    <td>561-784-4512</td>
+                    <td>art@gmail.com</td>
+                    <td>1452 SW 9th Ave Miami, FL 33135</td>
+                </tr>
+
+                <tr>
+                    <td>Thomas Greene</td>
+                    <td>561-555-5555</td>
+                    <td>t.greene@msn.com</td>
+                    <td>3000 Military Trail West Palm Beach, FL 33405</td>
+                </tr>
+
+                <tr>
+                    <td>Sue Rodriguiz</td>
+                    <td>954-555-5555</td>
+                    <td>suerod84@hotmail.com</td>
+                    <td>2500 Keifer St Hallendale, FL 33304</td>
+                </tr>
+
+                <tr>
+                    <td>Joan Jasper</td>
+                    <td>305-555-5555</td>
+                    <td>jaspersalon@outlook.com</td>
+                    <td> 8817 182nd St Miami Gardens, FL 33127</td>
+                </tr>
+
+                <tr>
+                    <td>Sammie Black</td>
+                    <td>954-555-5555</td>
+                    <td>black.sam@yahoo.com</td>
+                    <td>4200 Flower Rd Coral Springs, FL 33311</td>
+                </tr>
+
+                <tr>
+                    <td>Art Williams</td>
+                    <td>561-784-4512</td>
+                    <td>art@gmail.com</td>
+                    <td>1452 SW 9th Ave Miami, FL 33135</td>
+                </tr>
+
+                <tr>
+                    <td>Thomas Greene</td>
+                    <td>561-555-5555</td>
+                    <td>t.greene@msn.com</td>
+                    <td>3000 Military Trail West Palm Beach, FL 33405</td>
+                </tr>
+
+                <tr>
+                    <td>Sue Rodriguiz</td>
+                    <td>954-555-5555</td>
+                    <td>suerod84@hotmail.com</td>
+                    <td>2500 Keifer St Hallendale, FL 33304</td>
+                </tr>
+
+                <tr>
+                    <td>Joan Jasper</td>
+                    <td>305-555-5555</td>
+                    <td>jaspersalon@outlook.com</td>
+                    <td> 8817 182nd St Miami Gardens, FL 33127</td>
+                </tr>
+
+                <tr>
+                    <td>Sammie Black</td>
+                    <td>954-555-5555</td>
+                    <td>black.sam@yahoo.com</td>
+                    <td>4200 Flower Rd Coral Springs, FL 33311</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2>Homework Table</h2>
+
+            <p>Popular chicken restaurants with frequently ordered meals in Palm Beach County</p>
+
+        <div class="homework">
+            <table width="100%">
+
+                <tr>
+                    <th>Chicken Restaurants</th>
+                    <th>Popular Meals</th>
+                    <th>Phone number</th>
+                    <th>Address</th>
+                </tr>
+
+                <tr>
+                    <td>Buds Chicken</td>
+                    <td>Quickies</td>
+                    <td style="text-align: right;">561-999-9999</td>
+                    <td>1000 Lake Worth Rd Lake Worth, FL 33403</td>
+                </tr>
+
+                <tr>
+                    <td>Chick-fil-a</td>
+                    <td>Chick-fil-a Sandwich</td>
+                    <td style="text-align: right;">561-999-9999</td>
+                    <td>2000 Okeechobee Blvd West Palm Beach, FL 33417</td>
+                </tr>
+
+                <tr>
+                    <td>Chipotle</td>
+                    <td>Buritto Bowl</td>
+                    <td style="text-align: right;">561-999-9999</td>
+                    <td>3000 Palm Beach Lakes Blvd West Palm Beach, FL 33409</td>
+                </tr>
+
+                <tr>
+                    <td>CR Chicks</td>
+                    <td>Chicken Pasta</td>
+                    <td style="text-align: right;">561-999-9999</td>
+                    <td>4000 PGA Blvd Palm Beach Gardens, FL 33410</td>
+                </tr>
+
+                <tr>
+                    <td>Duffys</td>
+                    <td>Chicken Wings</td>
+                    <td style="text-align: right;">561-999-9999</td>
+                    <td>5000 Village Blvd West Palm Beach, FL 33409</td>
+                </tr>
+
+                <tr>
+                    <td>KFC</td>
+                    <td>Chicken Combos</td>
+                    <td style="text-align: right;">561-999-9999</td>
+                    <td>6000 N Military Trail West Palm Beach, FL 33407</td>
+                </tr>
+
+                <tr>
+                    <td>PDQs</td>
+                    <td>Crispy Chicken</td>
+                    <td style="text-align: right;">561-999-9999</td>
+                    <td>7000 Okeechobee Blvd West Palm Beach, FL 33409</td>
+                </tr>
+
+                <tr>
+                    <td>Pollo Tropical</td>
+                    <td>Tropichop Bowls</td>
+                    <td style="text-align: right;">561-999-9999</td>
+                    <td>8000 Forest Hill Blvd Greenacres, FL 33417</td>
+                </tr>
+
+                <tr>
+                    <td>Popeyes</td>
+                    <td>Signature Chicken</td>
+                    <td style="text-align: right;">561-999-9999</td>
+                    <td>9000 S Military Trail West Palm Beach, FL 33415</td>
+                </tr>
+
+                <tr>
+                    <td>Zaxbys</td>
+                    <td>Fingerz & Wings</td>
+                    <td style="text-align: right;">561-999-9999</td>
+                    <td>10000 N Congress Blvd West Palm Beach, FL 33401</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+            <p>With the border-style property you can use different types of borders:</p>
+
+            <ul>
+                <li>Dotted</li>
+                <li>Solid</li>
+                <li>Dashed</li>
+                <li>Double</li>
+                <li>Groove</li>
+                <li>Ridge</li>
+                <li>Inset</li>
+                <li>Outset</li>
+                <li>None</li>
+                <li>Hidden</li>
+            </ul>
+
+            <!-- 3 columns Gallery with a button -->
+
+            <div class="gallery">
+                <a class="image" title="This is a image" href="#"><img alt="This is a image" src="images/image-1.jpg" width="100%" height="" /></a>
+                <p>This is a column with some information</p>
+
+                <a class="button" title="This is a title" href="#">READ MORE</a>
+
+            </div>
+
+            <div class="gallery">
+                <a class="image" title="This is a image" href="#"><img alt="This is a image" src="images/image-2.jpg" width="100%" height="" /></a>
+                <p>This is a column with some information</p>
+
+                <a class="button" title="This is a title" href="#">READ MORE</a>
+                
+            </div>
+
+            <div class="gallery">
+                <a class="image" title="This is a image" href="#"><img alt="This is a image" src="images/image-3.jpg" width="100%" height="" /></a>
+                <p>This is a column with some information</p>
+
+                <a class="button" title="This is a title" href="#">READ MORE</a>
+                
+            </div>
+
         </div>
 
         <div class="column side">
@@ -102,22 +345,6 @@
             <li class="footer-links"><a class="footer-links" title="Become a UX Designer or Front-End Developer?" target="_blank" href="https://youtu.be/4K6hauan2qU?si=DEsrgoG6eLTOH34t">Become a UX Designer or Front-End Developer?</a></li> 
             <li class="footer-links"><a class="footer-links" title="Kentucky Derby 2023" target="_blank" href="https://youtu.be/aUDgaN6iHFc?si=MLh1l3WuwM1XZhmw">Kentucky Derby 2023</a></li> 
             <li class="footer-links"><a class="footer-links" title="Nickelodeon Hotels & Resorts Punta Cana" target="_blank" href="https://youtu.be/htf69hkCxaQ?si=zHsDNv6HiPIXMmUU">Nickelodeon Hotels & Resorts Punta Cana</a></li>  
-            </ul>
-        </div>
-
-        <div class="column footer">
-            <h2>Important Links</h2>
-            <ul class="footer-links">
-             <li class="footer-links"><a class="footer-links"  title="Go to Yahoo" target="_blank" href="https://www.yahoo.com/">Yahoo</a></li>
-             <li class="footer-links"><a class="footer-links" title="Go to Yahoo" target="_blank" href="https://www.yahoo.com/">Yahoo</a></li>
-             <li class="footer-links"><a class="footer-links" title="Go to Yahoo" target="_blank" href="https://www.yahoo.com/">Yahoo</a></li>
-             <li class="footer-links"><a class="footer-links" title="Go to Yahoo" target="_blank" href="https://www.yahoo.com/">Yahoo</a></li>
-             <li class="footer-links"><a class="footer-links" title="Go to Yahoo" target="_blank" href="https://www.yahoo.com/">Yahoo</a></li>
-             <li class="footer-links"><a class="footer-links" title="Go to Yahoo" target="_blank" href="https://www.yahoo.com/">Yahoo</a></li>
-             <li class="footer-links"><a class="footer-links" title="Go to Yahoo" target="_blank" href="https://www.yahoo.com/">Yahoo</a></li>
-             <li class="footer-links"><a class="footer-links" title="Go to Yahoo" target="_blank" href="https://www.yahoo.com/">Yahoo</a></li>
-             <li class="footer-links"><a class="footer-links" title="Go to Yahoo" target="_blank" href="https://www.yahoo.com/">Yahoo</a></li>
-             <li class="footer-links"><a class="footer-links" title="Go to Yahoo" target="_blank" href="https://www.yahoo.com/">Yahoo</a></li>
             </ul>
         </div>
 
